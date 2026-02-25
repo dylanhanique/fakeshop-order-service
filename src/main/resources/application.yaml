@@ -1,0 +1,5 @@
+spring:
+    application:
+        name: fakeshop-order-service
+    config:
+        import: optional:configserver:http://${CONFIG_SERVER_USERNAME}:${CONFIG_SERVER_PASSWORD}@localhost:8888
